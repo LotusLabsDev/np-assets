@@ -1,0 +1,21 @@
+[
+  { "regex": "\\(from .*?\\)", "flags": "i", "comment": "(from ...)" },
+  { "regex": "\\(from the series .*?\\)", "flags": "i", "comment": "(from the series ...)" },
+  { "regex": "\\(from \".*?\"\\)", "flags": "i", "comment": "(from \"...\")" },
+  { "regex": "\\(Original .*?Version\\)", "flags": "i" },
+  { "regex": "\\(Official .*?Version\\)", "flags": "i" },
+  { "regex": "\\(.*?Soundtrack\\)", "flags": "i" },
+  { "regex": "\\(.*?OST\\)", "flags": "i" },
+  { "regex": "- From \".*?\"", "flags": "i" },
+  { "regex": "- from \".*?\"", "flags": "i" },
+  { "regex": "- From\".*?\"", "flags": "i" },
+  { "regex": "- from\".*?\"", "flags": "i" },
+  { "regex": "- From .*?", "flags": "i" },
+  { "regex": "- from .*?", "flags": "i" },
+  { "regex": "From\".*?\".*$", "flags": "i" },
+  { "regex": "\\s*An HBO Original Series$", "flags": "i" },
+  { "regex": "\\(Inspired by .*?\\)", "flags": "i" },
+  { "regex": "\\[from .*? the movie\\]", "flags": "i" },
+  { "regex": "\\[From .*? The Movie\\]", "flags": "i" },
+  { "regex": " - From The Original Series.*$", "flags": "i" }
+]
