@@ -7,7 +7,7 @@
     },
     {
       "id": "lastfm",
-      "title": "1. Last.fm",
+      "title": "Last.fm",
       "content": "<h2>1. Last.fm</h2><p>This assumes that you already have a Last.fm account and have linked it to the streaming service that you use.</p><ol><li>Head over to <a href='https://www.last.fm/api/account/create' target='_blank'>https://www.last.fm/api/account/create</a></li><li>Fill in the form:<ul><li>Contact email: your email</li><li>Application name: np widget (you can put anything)</li><li>You don't have to put anything in the other fields</li></ul></li><li>Click Submit</li><li>Note down the API key</li><li>In the widget config, put the API key in the \"Last.FM API Key\" field</li><li>Put your Last.fm username in the \"Last.FM Account Username\" field</li></ol>"
     },
     {
