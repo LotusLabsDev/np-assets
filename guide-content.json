@@ -1,0 +1,65 @@
+{
+  "sections": [
+    {
+      "id": "welcome",
+      "title": "Welcome to the Guide",
+      "content": "<h2>Thank you for buying!</h2><p>Thanks for buying the LotusLabs NowPlaying widget!</p><p>If you have any problems or need any support, send a message in #np-support</p><p>This widget is an interactive guide! Use the Previous/Next buttons in the StreamElements editor fields panel to navigate between sections.</p>"
+    },
+    {
+      "id": "lastfm",
+      "title": "1. Last.fm",
+      "content": "<h2>1. Last.fm</h2><p>This assumes that you already have a Last.fm account and have linked it to the streaming service that you use.</p><ol><li>Head over to <a href='https://www.last.fm/api/account/create' target='_blank'>https://www.last.fm/api/account/create</a></li><li>Fill in the form:<ul><li>Contact email: your email</li><li>Application name: np widget (you can put anything)</li><li>You don't have to put anything in the other fields</li></ul></li><li>Click Submit</li><li>Note down the API key</li><li>In the widget config, put the API key in the \"Last.FM API Key\" field</li><li>Put your Last.fm username in the \"Last.FM Account Username\" field</li></ol>"
+    },
+    {
+      "id": "container",
+      "title": "Container Customisations",
+      "content": "<h2>Container Customisations</h2><h3>Spawn Side</h3><p>Choose which side of the screen the widget appears from: Left, Center, or Right.</p><h3>Maximum Width</h3><p>Set the maximum width of the widget container. Must be greater than 260 (e.g., 520).</p><h3>Container Glow</h3><p>Enable a glow effect around the container.</p><h3>Gradient Background</h3><p>Enable a gradient background that dynamically changes based on the album cover colors.</p><h3>Disable Background</h3><p>Remove the background entirely, making the widget transparent.</p>"
+    },
+    {
+      "id": "cover",
+      "title": "Cover Image",
+      "content": "<h2>Cover Image</h2><h3>Loading Image URL</h3><p>Set a custom loading animation/image URL. Supports webm, gif, mp4, and avif formats.</p><h3>Loading Image Format</h3><p>Select the format of your loading image: webm, gif, mp4, or avif.</p><h3>Fallback Album Image URL</h3><p>Set an image URL that displays when the album cover fails to load.</p>"
+    },
+    {
+      "id": "compact",
+      "title": "Compact Mode",
+      "content": "<h2>Compact Mode</h2><p>Compact mode shows a smaller version of the widget, useful when gaming.</p><h3>Command to Change Game</h3><p>Set the chat command that changes the current game (default: !setgame).</p><h3>Command to Toggle Compact Mode</h3><p>Set the chat command that manually toggles compact mode (default: !compacttoggle).</p><h3>Compact Mode Toggle</h3><ul><li><strong>Always:</strong> Widget is always in compact mode</li><li><strong>Never:</strong> Widget never uses compact mode</li><li><strong>When Gaming:</strong> Automatically switches to compact mode when not in \"Just chatting\"</li><li><strong>Hidden When Gaming:</strong> Widget hides completely when gaming</li></ul><h3>Default Game</h3><p>Set your default game category (default: \"Just chatting\").</p>"
+    },
+    {
+      "id": "reactions",
+      "title": "Chat Reactions",
+      "content": "<h2>Chat Reactions</h2><p>Allow viewers to react to the current song using channel point redemptions.</p><h3>Enable Chat Reactions</h3><p>Turn on the chat reaction feature.</p><h3>Redemption Name</h3><p>Set the name of the channel point redemption (default: \"React to the song\").</p><h3>Reset Reactions After Each Song</h3><p>Clear all reactions when a new song starts playing.</p><h3>Allow Duplicate Reactions from Users</h3><p>Allow the same user to react multiple times to the same song.</p>"
+    },
+    {
+      "id": "text",
+      "title": "Text",
+      "content": "<h2>Text</h2><h3>Default Font</h3><p>Use the default widget font (Metropolis) or choose a custom Google Font.</p><h3>Use Google Font</h3><p>If \"Default font\" is set to \"No\", you can select a custom Google Font to use.</p>"
+    },
+    {
+      "id": "colours",
+      "title": "Colours",
+      "content": "<h2>Colours</h2><h3>Song Name Colours</h3><p>Set separate colors for light and dark album covers for the song name text.</p><h3>Artist Name Colours</h3><p>Set separate colors for light and dark album covers for the artist name text.</p><h3>Fade In Highlight</h3><p>Enable dynamic fade-in highlight that changes color based on the album cover. You can also set a custom color.</p><h3>Reaction Colours</h3><p>Set colors for reaction image backgrounds and reaction counter text. Enable dynamic colors to automatically adjust based on album cover, or use static light/dark colors.</p><h3>Progress Bar Colours</h3><p>Set colors for the progress bar fill and background for both light and dark album covers.</p>"
+    },
+    {
+      "id": "progress",
+      "title": "Progress Bar",
+      "content": "<h2>Progress Bar</h2><p>Display a progress bar showing how far through the current song you are.</p><h3>Enable Progress Bar</h3><p>Turn on the progress bar feature.</p><h3>Enable Progress Bar in Compact Mode</h3><p>Show the progress bar even when the widget is in compact mode.</p>"
+    },
+    {
+      "id": "love",
+      "title": "Love",
+      "content": "<h2>Love</h2><p>Display a heart icon when you love a track on Last.fm.</p><h3>Enable Love</h3><p>Turn on the love feature.</p><h3>Heart Colour</h3><p>Set the color of the heart icon.</p><h3>Enable Heart Border Always</h3><p>Always show a border around the heart icon, even when not loved.</p>"
+    },
+    {
+      "id": "effects",
+      "title": "Effects",
+      "content": "<h2>Effects</h2><h3>Snow</h3><p>Enable snow effect during December.</p>"
+    },
+    {
+      "id": "birthday",
+      "title": "Birthday Mode",
+      "content": "<h2>Birthday Mode (Confetti)</h2><p>Celebrate special occasions with confetti effects!</p><h3>Toggle Confetti</h3><p>Enable confetti effects for your birthday.</p><h3>Amount of Confetti</h3><p>Set how many confetti particles appear (default: 50).</p><h3>Confetti Colors</h3><p>Set custom colors for the confetti. Use comma-separated hex colors (e.g., #FF9AA2,#FFB7A2,#FFDAC1).</p><h3>Birthday Day & Month</h3><p>Set your birthday date. The confetti will automatically trigger on that day.</p>"
+    }
+  ]
+}
+
