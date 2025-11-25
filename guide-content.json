@@ -3,7 +3,7 @@
     {
       "id": "welcome",
       "title": "Welcome to the Guide",
-      "content": "<h2>Thank you for buying!</h2><p>Thanks for buying the LotusLabs NowPlaying widget!</p><p>If you have any problems or need any support, send a message in #np-support</p><p>This widget is an interactive guide! Use the Previous/Next buttons in the StreamElements editor fields panel to navigate between sections.</p>"
+      "content": "<h2>Thank you for buying!</h2><p>Thanks for buying the LotusLabs NowPlaying widget!</p><p>If you have any problems or need any support, send a message in #np-support</p><p>This widget is an interactive guide that will not show on OBS! Click on this widget once, then on the left click 'Settings' and then use the the Previous/Next buttons to navigate between sections.</p>"
     },
     {
       "id": "obssetup",
