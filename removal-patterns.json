@@ -18,4 +18,5 @@
   { "regex": "\\[from .*? the movie\\]", "flags": "i" },
   { "regex": "\\[From .*? The Movie\\]", "flags": "i" },
   { "regex": " - From The Original Series.*$", "flags": "i" }
+  { "regex": " - As featured in.*$", "flags": "i" }
 ]
